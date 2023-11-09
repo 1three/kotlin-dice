@@ -20,8 +20,8 @@ class MainActivity : AppCompatActivity() {
         val rightDice = binding.rightDice
 
         binding.diceStartBtn.setOnClickListener {
-            val leftRandom = Random.nextInt(1, 6)
-            val rightRandom = Random.nextInt(1, 6)
+            val leftRandom = Random.nextInt(1, 7)
+            val rightRandom = Random.nextInt(1, 7)
 
             if (leftRandom == rightRandom) {
                 Toast.makeText(this, "더블!", Toast.LENGTH_LONG).show()
